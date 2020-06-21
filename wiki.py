@@ -23,4 +23,8 @@ search_box = driver.find_element(*WikipediaArticle.Search_Info)
 search_box.send_keys("Selenium (software)" + Keys.RETURN)
 time.sleep(5)
 
+Logo = driver.find_element(*WikipediaArticle.Logo)
+Logo.click()
+time.sleep(5)
+
 driver.quit()

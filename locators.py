@@ -7,3 +7,4 @@ class WikipediaArticle(object):
     First_Heading = (By.CSS_SELECTOR, '.firstHeading')
     Page_Info = (By.LINK_TEXT, 'Page information')
     Search_Info = (By.NAME, 'search')
+    Logo = (By.XPATH, "/html//div[@id='p-logo']")
